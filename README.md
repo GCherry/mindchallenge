@@ -1,7 +1,13 @@
 # Mindex Coding Challenge
+## What's Provided
+A simple [.NetCore 2.1](https://dotnet.microsoft.com/download/dotnet-core/2.1) web application has been created and bootstrapped 
+with data. The application contains information about all employees at a company. On application start-up, an in-memory 
+database is bootstrapped with a serialized snapshot of the database. While the application runs, the data may be
+accessed and mutated in the database without impacting the snapshot.
 
 ### How to Run
 You can run this by executing `dotnet run` on the command line or in [Visual Studio Community Edition](https://www.visualstudio.com/downloads/).
+
 
 ### How to Use
 The following endpoints are available to use:
@@ -76,3 +82,6 @@ not be persisted.
 Create a new type, Compensation. A Compensation has the following fields: employee, salary, and effectiveDate. Create 
 two new Compensation REST endpoints. One to create and one to read by employeeId. These should persist and query the 
 Compensation from the persistence layer.
+
+## Delivery
+Please upload your results to a publicly accessible Git repo. Free ones are provided by Github and Bitbucket.
